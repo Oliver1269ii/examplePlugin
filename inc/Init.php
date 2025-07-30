@@ -9,7 +9,10 @@ final class Init {
     public static function get_services(){
         return [
             admin\ProductSettings::class,
-            admin\SaveProductSettings::class
+            admin\SaveProductSettings::class,
+            frontend\BeforeCartButton::class,
+            frontend\ProcessCartButton::class,
+            frontend\DisplayValuesInCart::class
         ];
     }
 
