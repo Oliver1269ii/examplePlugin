@@ -12,7 +12,8 @@ final class Init {
             admin\SaveProductSettings::class,
             frontend\BeforeCartButton::class,
             frontend\ProcessCartButton::class,
-            frontend\DisplayValuesInCart::class
+            frontend\DisplayValuesInCart::class,
+            frontend\ProcessFees::class
         ];
     }
 
