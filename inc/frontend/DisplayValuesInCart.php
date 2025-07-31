@@ -12,9 +12,10 @@ class DisplayValuesInCart{
 
     public static function display_custom_checkbox_cart_data( $item_data, $cart_item ) {
         if ( isset( $cart_item['custom_checkbox_option'] ) && $cart_item['custom_checkbox_option'] === 'yes' ) {
+            $price = 1269.00;
             $item_data[] = array(
-                'key'   => __( 'Custom Option', 'ExamplePlugin' ),
-                'value' => __( 'Enabled', 'ExamplePlugin' ),
+                'key'   => __( 'Huller ' . $price . 'kr,-', 'ExamplePlugin' ),
+                'value' => __( '', 'ExamplePlugin' ),
             );
         }
         return $item_data;

@@ -13,7 +13,8 @@ final class Init {
             frontend\BeforeCartButton::class,
             frontend\ProcessCartButton::class,
             frontend\DisplayValuesInCart::class,
-            frontend\ProcessFees::class
+            frontend\ProcessFees::class,
+            admin\orders\displayCustomOptions::class
         ];
     }
 
