@@ -8,6 +8,7 @@ namespace Inc;
 final class Init {
     public static function get_services(){
         return [
+            base\Enqueue::class,
             admin\ProductSettings::class,
             admin\SaveProductSettings::class,
             frontend\BeforeCartButton::class,

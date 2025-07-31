@@ -15,7 +15,7 @@ class BeforeCartButton {
         if ($enabled === 'yes') {
             ?>
             <div class='customOption'>
-                <label for="custom_checkbox_option">
+                <label for="custom_checkbox_option" class='custom_options'>
                 <input type="checkbox" name="custom_checkbox_option" id="custom_checkbox_option" value="yes">
                 <?php _e( 'Enable custom feature', 'ExamplePlugin' ); ?>
             </label>
